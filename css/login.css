@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 90%;
+    height: auto;
+    margin: 60px auto;
+    padding-top: 10px;
+
+}
+.box
+{
+    width: 40%;
+    margin: 60px auto;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+}
+.col-1
+{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.col-1 h1 
+{
+    padding: 20px;
+    font-weight: bold;
+}
+.col-1 input 
+{
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    border: none;
+}
+.sub_btn
+{
+    color: white;
+    width: 40%;
+    background-color: turquoise;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 10px;
+}
+.sub_btn:hover 
+{
+    background-color: rgb(10, 182, 165);
+    cursor: pointer;
+}

@@ -1,0 +1,166 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 90%;
+    height: auto;
+    margin: 60px auto;
+    padding-top: 10px;
+    background-color: cadetblue;
+}
+.container h3 
+{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    vertical-align: middle;
+}
+form
+{
+    padding: 20px;
+    background-color: cornsilk;
+}
+.name_section
+{
+    text-align: center;
+}
+.name_section input
+{
+    width: 33%;
+    line-height: 35px;
+    text-align: left;
+    padding-left: 25px;
+    margin: 15px auto;
+}
+.mob_section
+{
+    text-align: center;
+    width: 100%;
+}
+.mob_section select 
+{
+    width: 12%;
+    height: 38px;
+    padding: 5px 20px;
+}
+.mob_section input
+{
+    width: 75%;
+    line-height: 35px;
+    text-align: left;
+    padding-left: 25px;
+    margin: 15px auto;
+}
+.check_section
+{
+    font-size: 20px;
+    padding: auto 10px;
+}
+.email_section
+{
+    width: 100%;
+}
+.email_section input
+{
+    width: 49.5%;
+    line-height: 35px;
+    text-align: left;
+    padding-left: 25px;
+    margin: 15px auto;
+}
+.dob_section
+{
+    width: 100%;
+}
+.dob_section label
+{
+    font-size: 18px;
+}
+.dob_section select
+{
+    width: 30.3%;
+    height: 35px;
+    text-align: left;
+    padding-left: 25px;
+    margin: 15px auto;
+}
+.pass_section 
+{
+    width: 100%;
+}
+.pass_section input
+{
+    width: 49.5%;
+    line-height: 35px;
+    text-align: left;
+    padding-left: 25px;
+    margin: 15px auto;
+}
+.accept_section
+{
+    font-size: 20px;
+    padding: auto 10px;
+    margin-bottom: 15px;
+}
+.last_section
+{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+.last_section button
+{
+    width: 22%;
+    height: 45px;
+    color: white;
+    background-color: turquoise;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.last_section button:hover
+{
+    background-color: rgb(45, 243, 45);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.last_section p 
+{
+    font-size: 18px;
+    padding: 10px;
+}
+.last_section label
+{
+    font-size: 18px;
+}
+.last_section input 
+{
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.mob 
+{
+    display: none;
+    font-size: 40px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+@media (max-width: 1000px)
+{
+    .container
+    {
+        display: none;
+    }
+    .mob
+    {
+        display: block;
+    }
+}
